@@ -12,17 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/sjlutterbie/eslint-config-sjlutterbie-styleguide.git"
   },
-  "keywords": [
-    "eslint",
-    "typescript",
-    "prettier"
-  ],
+  "keywords": ["eslint", "typescript", "prettier"],
   "author": "Dr. Simon Lutterbie",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sjlutterbie/eslint-config-sjlutterbie-styleguide/issues"
   },
   "homepage": "https://github.com/sjlutterbie/eslint-config-sjlutterbie-styleguide#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "peerDependencies": {
     "eslint": "^7.0.0",
     "prettier": "^2.0.5",
