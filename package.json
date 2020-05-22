@@ -1,0 +1,43 @@
+{
+  "name": "@sjlutterbie/eslint-config-sjlutterbie-styleguide",
+  "version": "1.0.0",
+  "description": "Personalized ESLint styleguide for cross-project consistency. Extends airbnb-typescript-prettier",
+  "main": "index.js",
+  "scripts": {
+    "release": "npm test && standard-version",
+    "release:dryrun": "standard-version --dry-run",
+    "test": "echo \"WARN: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjlutterbie/eslint-config-sjlutterbie-styleguide.git"
+  },
+  "keywords": ["eslint", "typescript", "prettier"],
+  "author": "Dr. Simon Lutterbie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjlutterbie/eslint-config-sjlutterbie-styleguide/issues"
+  },
+  "homepage": "https://github.com/sjlutterbie/eslint-config-sjlutterbie-styleguide#readme",
+  "peerDependencies": {
+    "eslint": "^7.0.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-typescript-prettier": "^2.1.1"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-typescript-prettier": "^2.1.1",
+    "prettier": "^2.0.5",
+    "standard-version": "^8.0.0",
+    "typescript": "^3.9.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
