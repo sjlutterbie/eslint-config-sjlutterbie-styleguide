@@ -12,7 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/sjlutterbie/eslint-config-sjlutterbie-styleguide.git"
   },
-  "keywords": ["eslint", "typescript", "prettier"],
+  "keywords": [
+    "eslint",
+    "typescript",
+    "prettier"
+  ],
   "author": "Dr. Simon Lutterbie",
   "license": "MIT",
   "bugs": {
@@ -25,6 +29,7 @@
     "typescript": "^3.9.3"
   },
   "dependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint-config-airbnb-typescript-prettier": "^2.1.1"
   },
   "devDependencies": {
