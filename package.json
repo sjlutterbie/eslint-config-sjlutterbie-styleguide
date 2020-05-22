@@ -1,6 +1,6 @@
 {
   "name": "@sjlutterbie/eslint-config-sjlutterbie-styleguide",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Personalized ESLint styleguide for cross-project consistency. Extends airbnb-typescript-prettier",
   "main": "index.js",
   "scripts": {
