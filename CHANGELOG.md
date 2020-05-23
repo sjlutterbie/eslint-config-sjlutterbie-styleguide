@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/sjlutterbie/eslint-config-sjlutterbie-styleguide/compare/v0.1.4...v0.1.5) (2020-05-23)
+
+
+### Features
+
+* export Prettier configuration ([6946164](https://github.com/sjlutterbie/eslint-config-sjlutterbie-styleguide/commit/69461648e8edcea922a7f896f26ccaab1beabb3d))
+
 ### [0.1.4](https://github.com/sjlutterbie/eslint-config-sjlutterbie-styleguide/compare/v0.1.3...v0.1.4) (2020-05-22)
 
 
