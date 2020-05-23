@@ -3,6 +3,7 @@
   "version": "0.1.4",
   "description": "Personalized ESLint styleguide for cross-project consistency. Extends airbnb-typescript-prettier",
   "main": "index.js",
+  "files": ["./index.js", "./.prettierrc.js"],
   "scripts": {
     "release": "npm test && standard-version",
     "release:dryrun": "standard-version --dry-run",
@@ -12,11 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/sjlutterbie/eslint-config-sjlutterbie-styleguide.git"
   },
-  "keywords": [
-    "eslint",
-    "typescript",
-    "prettier"
-  ],
+  "keywords": ["eslint", "typescript", "prettier"],
   "author": "Dr. Simon Lutterbie",
   "license": "MIT",
   "bugs": {
